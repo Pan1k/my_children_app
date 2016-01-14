@@ -167,11 +167,17 @@ footer {
 
 /* Content */
 .btn-avatar-change {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
     position: relative;
     width: 175px;
     height: 175px;
     background-color: #ecf6f6;
     border-radius: 50%;
     margin: 0 auto;
+}
+.btn-avatar-change img {
+
 }

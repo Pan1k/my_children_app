@@ -34,6 +34,10 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
+        if (cordova.platformId == 'android') {
+            StatusBar.backgroundColorByHexString("#32b1b5");
+        }
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
