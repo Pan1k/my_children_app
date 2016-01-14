@@ -34,9 +34,6 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-
-        // Backbutton
-        document.addEventListener("btn-back", this.onBackKeyDown, false);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -48,10 +45,6 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-    },
-
-    onBackKeyDown: function(){
-        alert('click');
     }
 };
 
