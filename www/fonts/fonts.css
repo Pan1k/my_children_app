@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("OpenSans-Light.ttf") format("opentype");
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("OpenSans-Regular.ttf") format("opentype");
+}
