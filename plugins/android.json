@@ -13,9 +13,6 @@
         "cordova-plugin-imagepicker": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "cordova-plugin-datepicker": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }

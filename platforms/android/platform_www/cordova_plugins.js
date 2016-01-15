@@ -15,14 +15,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-datepicker/www/android/DatePicker.js",
-        "id": "cordova-plugin-datepicker.DatePicker",
-        "pluginId": "cordova-plugin-datepicker",
-        "clobbers": [
-            "datePicker"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
         "id": "cordova-plugin-statusbar.statusbar",
         "pluginId": "cordova-plugin-statusbar",
@@ -36,7 +28,6 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.2.0",
     "cordova-plugin-imagepicker": "1.1.0",
-    "cordova-plugin-datepicker": "0.9.3",
     "cordova-plugin-statusbar": "2.0.0"
 }
 // BOTTOM OF METADATA
