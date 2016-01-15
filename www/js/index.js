@@ -34,6 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        app.loadChildren();
 
         if (cordova.platformId == 'android') {
             StatusBar.backgroundColorByHexString("#32b1b5");
@@ -49,7 +50,17 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+    },
+
+    // Load Children
+    loadChildren: function(){
+        $.getJSON("../json/children.json", function(data) {
+            var children = JSON.parse(data);
+
+            console.log(children);
+        });
     }
+
 };
 
 app.initialize();
