@@ -57,17 +57,17 @@
                     <h2>Tell us about your kids</h2>
                 </div>
                 <div class="dialog-content">
-                    <div class="dialog-row">
-                        <div class="inline-container">
+                    <div class="dialog-row flex-inline">
+                        <div class="radio-container">
                             <input type="radio" value="1" id="gender-boy" name="child-gender" />
                             <label for="gender-boy">Boy</label>
                         </div>
-                        <div class="inline-container">
-                            <input type="radio" value="1" id="gender-girl" name="child-gender" />
+                        <div class="radio-container">
+                            <input type="radio" value="2" id="gender-girl" name="child-gender" />
                             <label for="gender-girl">Girl</label>
                         </div>
-                        <div class="inline-container">
-                            <input type="radio" value="1" id="gender-pregnant" name="child-gender" />
+                        <div class="radio-container">
+                            <input type="radio" value="3" id="gender-pregnant" name="child-gender" />
                             <label for="gender-pregnant">Pregnant</label>
                         </div>
                     </div>
@@ -81,7 +81,11 @@
             </div>
 
             <ul class="children-list">
-                <li></li>
+                <li>
+                    <span class="icon icon-boy"></span>
+                    <span class="date">13/05/2014</span>
+                    <a href="javascript:" class="remove-child">X</a>
+                </li>
             </ul>
         </section>
 

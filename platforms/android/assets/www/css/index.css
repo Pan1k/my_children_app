@@ -179,5 +179,44 @@ footer {
     margin: 0 auto;
 }
 .btn-avatar-change img {
-
+    width: 61px;
+    height: 48px;
+}
+.btn-avatar-change span {
+    padding: 10px 25px 0;
+    color: #32b1b5;
+    font-size: 20px;
+    text-transform: none;
+    text-align: center;
+}
+.content h1 {
+    color: rgba(34, 34, 34, 0.6);
+    font-size: 35px;
+    text-transform: none;
+}
+.dialog-container {
+    border: 1px solid #2cc8ee;
+    border-radius: 5px;
+}
+.dialog-container .dialog-header,
+.dialog-container .dialog-content {
+    padding: 0 28px;
+}
+.dialog-container .dialog-header h2 {
+    font-size: 24px;
+    color: #32b1b5;
+    text-transform: none;
+    font-weight: lighter;
+    border-bottom: 1px solid #32b1b5;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 0 10px;
+}
+.flex-inline {
+    display: flex;
+    justify-content: space-between;
+}
+.dialog-row {
+    position: relative;
+    margin: 20px 0;
 }
