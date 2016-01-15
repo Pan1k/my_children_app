@@ -4,55 +4,87 @@
 
 console.log("Loaded");
 
+var children = [{
+    "gender": "1",
+    "date": "02/03/2014"
+}, {
+    "gender": "0",
+    "date": "21/10/2015"
+}];
+
+var childrenList = document.getElementById("children-list");
+
 function init() {
-    var children = [{
-        "gender": "1",
-        "date": "02/03/2014"
-    },{
-        "gender": "0",
-        "date": "21/10/2015"
-    }];
 
-    for(var i = 0; i < children.length; i++){
-        createListItems(children, i);
-    }
+    createListItems();
 
-    var addChildBtn = document.getElementsByClassName('btn-add-child');
+    var addChildBtn = document.getElementById('btn-add-child');
+
+    // Adding new child
+    addChildBtn.addEventListener("click", addNewChild, false);
 
 }
 
-function createListItems(data, i){
+function addNewChild(){
+    var gender = checkRadio(document.getElementsByName("child-gender"));
+    var birthDate = document.getElementById("inputBirthDate").value;
 
-    var list = document.getElementById("children-list");
-
-    // Adding elements to HTML
-    var li = document.createElement("li");
-    var spanGender = document.createElement("span");
-    var spanBirthDate = document.createElement("span");
-    var removeChildLink = document.createElement("a");
-
-    // Set attributes
-    spanBirthDate.setAttribute("class", "date");
-    switch (data[i].gender){
-        case "1":
-            spanGender.setAttribute("class", "icon icon-boy");
-            break;
-        case "0":
-            spanGender.setAttribute("class", "icon icon-girl");
-            break;
-
-        default :
-            spanGender.setAttribute("class", "icon icon-pregnant");
-            break;
+    if(gender == undefined){
+        alert("Please check all fields");
     }
 
-    // Creating HTML format
-    spanBirthDate.appendChild(document.createTextNode(data[i].date));
-    removeChildLink.appendChild(document.createTextNode("X"));
-    li.appendChild(spanGender);
-    li.appendChild(spanBirthDate);
-    li.appendChild(removeChildLink);
-    list.appendChild(li);
+    children.push({"gender": gender, "date": birthDate});
+
+    childrenList.innerHTML = "";
+    createListItems();
+}
+
+function checkRadio(elems){
+    for(var i = 0; i < elems.length; i++){
+        if(elems[i].checked){
+            return elems[i].value;
+        }
+    }
+}
+
+function createListItems(){
+
+    for(var i = 0; i < children.length; i++) {
+
+        // Adding elements to HTML
+        var li = document.createElement("li");
+        var spanGender = document.createElement("span");
+        var spanBirthDate = document.createElement("span");
+        var removeChildLink = document.createElement("a");
+
+        // Set attributes
+        spanBirthDate.setAttribute("class", "date");
+        switch (children[i].gender) {
+            case "1":
+                spanGender.setAttribute("class", "icon icon-boy");
+                break;
+            case "0":
+                spanGender.setAttribute("class", "icon icon-girl");
+                break;
+
+            default :
+                spanGender.setAttribute("class", "icon icon-pregnant");
+                break;
+        }
+
+        // Creating HTML format
+        li.appendChild(spanGender);
+
+        spanBirthDate.appendChild(document.createTextNode(children[i].date));
+        li.appendChild(spanBirthDate);
+
+        removeChildLink.appendChild(document.createTextNode("X"));
+        li.appendChild(removeChildLink);
+
+        childrenList.appendChild(li);
+
+    }
+
 }
 
 window.addEventListener("load", init);

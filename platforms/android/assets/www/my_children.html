@@ -63,20 +63,20 @@
                             <label for="gender-boy">Boy</label>
                         </div>
                         <div class="radio-container">
-                            <input type="radio" value="2" id="gender-girl" name="child-gender" />
+                            <input type="radio" value="0" id="gender-girl" name="child-gender" />
                             <label for="gender-girl">Girl</label>
                         </div>
                         <div class="radio-container">
-                            <input type="radio" value="3" id="gender-pregnant" name="child-gender" />
+                            <input type="radio" value="" id="gender-pregnant" name="child-gender" />
                             <label for="gender-pregnant">Pregnant</label>
                         </div>
                     </div>
                     <div class="dialog-row">
-                        <input type="date" value="2016-01-01" />
+                        <input id="inputBirthDate" type="date" value="2016-01-01" />
                     </div>
                 </div>
                 <div class="dialog-footer">
-                    <a href="" class="btn-add-child">Add child</a>
+                    <button id="btn-add-child" class="btn-add-child">Add child</button>
                 </div>
             </div>
 
@@ -84,7 +84,7 @@
         </section>
 
         <footer class="footer">
-            <a href="javascript:" class="btn btn-next">Next</a>
+            <button class="btn btn-next">Next</button>
         </footer>
 
         <script type="text/javascript" src="cordova.js"></script>

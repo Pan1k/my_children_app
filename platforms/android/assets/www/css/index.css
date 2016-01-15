@@ -236,11 +236,12 @@ footer {
     display: inline-block;
     width: 100%;
     background-color: #2cc8ee;
+    border: 2px solid #2cc8ee;
     color: #fff;
     font-size: 25px;
     text-transform: none;
     text-align: center;
-    padding: 10px 0;
+    padding: 6px 0;
 }
 
 /* Children list */
