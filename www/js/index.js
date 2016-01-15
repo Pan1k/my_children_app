@@ -36,7 +36,8 @@ var app = {
         app.receivedEvent('deviceready');
 
         if (cordova.platformId == 'android') {
-            StatusBar.backgroundColorByHexString("#32b1b5");
+//            StatusBar.backgroundColorByHexString("#32b1b5");
+            StatusBar.backgroundColorByName("transparent");
         }
     },
     // Update DOM on a Received Event
