@@ -12,6 +12,8 @@ var children = [{
     "date": "21/10/2015"
 }];
 
+children.reverse();
+
 var childrenList = document.getElementById("children-list");
 
 function init() {
@@ -31,10 +33,20 @@ function addNewChild(){
 
     if(gender == undefined){
         alert("Please check all fields");
+        return;
     }
 
-    children.push({"gender": gender, "date": birthDate});
+    children.unshift({"gender": gender, "date": birthDate});
 
+    childrenList.innerHTML = "";
+    createListItems();
+}
+
+function removeChild(event){
+    var targetElement = event.target || event.srcElement;
+    var attr = targetElement.getAttribute("data-id");
+
+    children.splice(attr, 1);
     childrenList.innerHTML = "";
     createListItems();
 }
@@ -71,6 +83,8 @@ function createListItems(){
                 spanGender.setAttribute("class", "icon icon-pregnant");
                 break;
         }
+        removeChildLink.setAttribute("data-id", i);
+        removeChildLink.addEventListener("click", function(event){ removeChild(event); }, false);
 
         // Creating HTML format
         li.appendChild(spanGender);
