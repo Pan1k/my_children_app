@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3077d07f-3e37-4ef5-9c32-33a2162d90f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/core.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/core.js" afterPath="$PROJECT_DIR$/www/js/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="$PROJECT_DIR$/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_children_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,14 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="239" column="30" selection-start-line="239" selection-start-column="30" selection-end-line="239" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.4055944">
+              <caret line="175" column="1" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
               <folding>
-                <element signature="e#8695#13448#2" expanded="true" />
-                <element signature="e#13510#20759#2" expanded="true" />
+                <element signature="e#8868#13621#2" expanded="true" />
+                <element signature="e#13683#20932#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6322795">
+            <state vertical-scroll-proportion="0.0">
               <caret line="91" column="77" selection-start-line="91" selection-start-column="77" selection-end-line="91" selection-end-column="77" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
@@ -109,8 +101,8 @@
         <option value="$PROJECT_DIR$/www/json/children.json" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/my_children.html" />
-        <option value="$PROJECT_DIR$/www/css/index.css" />
         <option value="$PROJECT_DIR$/www/js/core.js" />
+        <option value="$PROJECT_DIR$/www/css/index.css" />
       </list>
     </option>
   </component>
@@ -358,8 +350,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="243" column="14" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
           <folding>
-            <element signature="e#8695#13448#2" expanded="true" />
-            <element signature="e#13510#20759#2" expanded="true" />
+            <element signature="e#8868#13621#2" expanded="true" />
+            <element signature="e#13683#20932#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -405,8 +397,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="255" column="21" selection-start-line="255" selection-start-column="21" selection-end-line="255" selection-end-column="21" />
           <folding>
-            <element signature="e#8695#13448#2" expanded="true" />
-            <element signature="e#13510#20759#2" expanded="true" />
+            <element signature="e#8868#13621#2" expanded="true" />
+            <element signature="e#13683#20932#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -452,8 +444,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="130" column="29" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="29" />
           <folding>
-            <element signature="e#8695#13448#2" expanded="true" />
-            <element signature="e#13510#20759#2" expanded="true" />
+            <element signature="e#8868#13621#2" expanded="true" />
+            <element signature="e#13683#20932#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -499,8 +491,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="130" column="29" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="29" />
           <folding>
-            <element signature="e#8695#13448#2" expanded="true" />
-            <element signature="e#13510#20759#2" expanded="true" />
+            <element signature="e#8868#13621#2" expanded="true" />
+            <element signature="e#13683#20932#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,8 +546,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding>
-            <element signature="e#8695#13448#2" expanded="true" />
-            <element signature="e#13510#20759#2" expanded="true" />
+            <element signature="e#8868#13621#2" expanded="true" />
+            <element signature="e#13683#20932#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -619,17 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="239" column="30" selection-start-line="239" selection-start-column="30" selection-end-line="239" selection-end-column="30" />
-          <folding>
-            <element signature="e#8695#13448#2" expanded="true" />
-            <element signature="e#13510#20759#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/json/children.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -658,10 +639,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6322795">
+        <state vertical-scroll-proportion="0.0">
           <caret line="91" column="77" selection-start-line="91" selection-start-column="77" selection-end-line="91" selection-end-column="77" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4055944">
+          <caret line="175" column="1" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+          <folding>
+            <element signature="e#8868#13621#2" expanded="true" />
+            <element signature="e#13683#20932#2" expanded="true" />
           </folding>
         </state>
       </provider>
