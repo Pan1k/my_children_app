@@ -167,8 +167,14 @@ footer {
     height: 26px;
 }
 .btn-next {
-
+    background-color: #fe686a;
+    border-color: #fe686a;
 }
+.btn-next:active {
+    background-color: #fff;
+    color: #fe686a;
+}
+
 
 
 /* Content */

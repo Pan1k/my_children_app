@@ -4,13 +4,21 @@
 
 console.log("Loaded");
 
-var children = [{
-    "gender": "1",
-    "date": "02/03/2014"
-}, {
-    "gender": "0",
-    "date": "21/10/2015"
-}];
+var userInfo = {
+    "user-name": "Sally Smith",
+    "avatar": null,
+    "children": [{
+        "gender": "1",
+        "date": "02/03/2014"
+    }, {
+        "gender": "0",
+        "date": "21/10/2015"
+    }]
+};
+
+console.log(userInfo);
+
+var children = userInfo.children;
 
 children.reverse();
 
