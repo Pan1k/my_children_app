@@ -29,9 +29,16 @@ function init() {
     createListItems();
 
     var addChildBtn = document.getElementById('btn-add-child');
+    var dateInput = document.getElementById('labelBirthDate');
 
     // Adding new child
     addChildBtn.addEventListener("click", addNewChild, false);
+
+    dateInput.addEventListener("click", function(){
+        document.getElementById("inputBirthDate").focus();
+    }, false);
+
+
 
 }
 
