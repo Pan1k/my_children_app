@@ -4,13 +4,21 @@
 
 console.log("Loaded");
 
-var children = [{
-    "gender": "1",
-    "date": "02/03/2014"
-}, {
-    "gender": "0",
-    "date": "21/10/2015"
-}];
+var userInfo = {
+    "user-name": "Sally Smith",
+    "avatar": null,
+    "children": [{
+        "gender": "1",
+        "date": "02/03/2014"
+    }, {
+        "gender": "0",
+        "date": "21/10/2015"
+    }]
+};
+
+console.log(userInfo);
+
+var children = userInfo.children;
 
 children.reverse();
 
@@ -46,9 +54,14 @@ function removeChild(event){
     var targetElement = event.target || event.srcElement;
     var attr = targetElement.getAttribute("data-id");
 
-    children.splice(attr, 1);
-    childrenList.innerHTML = "";
-    createListItems();
+    // Animation before deleting
+    targetElement.parentNode.setAttribute("class", "removed");
+
+    setTimeout(function(){
+        children.splice(attr, 1);
+        childrenList.innerHTML = "";
+        createListItems();
+    }, 300);
 }
 
 function checkRadio(elems){

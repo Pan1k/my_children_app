@@ -54,9 +54,14 @@ function removeChild(event){
     var targetElement = event.target || event.srcElement;
     var attr = targetElement.getAttribute("data-id");
 
-    children.splice(attr, 1);
-    childrenList.innerHTML = "";
-    createListItems();
+    // Animation before deleting
+    targetElement.parentNode.setAttribute("class", "removed");
+
+    setTimeout(function(){
+        children.splice(attr, 1);
+        childrenList.innerHTML = "";
+        createListItems();
+    }, 300);
 }
 
 function checkRadio(elems){
