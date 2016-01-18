@@ -39,7 +39,7 @@ function addNewChild(){
     var gender = checkRadio(document.getElementsByName("child-gender"));
     var birthDate = document.getElementById("inputBirthDate").value;
 
-    if(gender == undefined){
+    if(gender == undefined || birthDate == ""){
         alert("Please check all fields");
         return;
     }
