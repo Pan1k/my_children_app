@@ -37,7 +37,6 @@ var app = {
         app.loadChildren();
 
         if (cordova.platformId == 'android') {
-            alert("android");
             StatusBar.backgroundColorByHexString("#32b1b5");
         }
     },

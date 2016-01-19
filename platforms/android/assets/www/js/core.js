@@ -2,8 +2,6 @@
  * Created by Aleksandr on 15.01.2016.
  */
 
-console.log("Loaded");
-
 var userInfo = {
     "user-name": "Sally Smith",
     "avatar": null,
@@ -15,9 +13,6 @@ var userInfo = {
         "date": "21/10/2015"
     }]
 };
-
-console.log(userInfo);
-
 var children = userInfo.children;
 
 children.reverse();
@@ -45,10 +40,10 @@ function init() {
 
 }
 
-function onSuccess(date) {
-    var day = zeroFormat(date.getDate());
-    var month = zeroFormat(date.getMonth() + 1);
-    var year = date.getFullYear();
+function onSuccess(selectedDate) {
+    var day = zeroFormat(selectedDate.getDate());
+    var month = zeroFormat(selectedDate.getMonth() + 1);
+    var year = selectedDate.getFullYear();
 
     dateBirth = day + '/' + month + '/' + year;
     alert('Selected date: ' + dateBirth);
