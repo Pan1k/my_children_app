@@ -2,8 +2,6 @@
  * Created by Aleksandr on 15.01.2016.
  */
 
-console.log("Loaded");
-
 var userInfo = {
     "user-name": "Sally Smith",
     "avatar": null,
@@ -15,44 +13,60 @@ var userInfo = {
         "date": "21/10/2015"
     }]
 };
-
-console.log(userInfo);
-
 var children = userInfo.children;
 
 children.reverse();
 
 var childrenList = document.getElementById("children-list");
+var addChildBtn = document.getElementById('btn-add-child');
+var dateLabel = document.getElementById('labelBirthDate');
+var dateBirth = "";
 
 function init() {
 
     createListItems();
 
-    var addChildBtn = document.getElementById('btn-add-child');
-    var dateInput = document.getElementById('labelBirthDate');
-
     // Adding new child
     addChildBtn.addEventListener("click", addNewChild, false);
 
-    dateInput.addEventListener("click", function(){
-        document.getElementById("inputBirthDate").focus();
+    var dtoption = {
+        date: new Date(),
+        mode: 'date'
+    };
+
+    dateLabel.addEventListener("click", function(){
+        datePicker.show(dtoption, onSuccess);
     }, false);
 
+}
 
+function onSuccess(date) {
+    var day = zeroFormat(date.getDate());
+    var month = zeroFormat(date.getMonth() + 1);
+    var year = date.getFullYear();
 
+    dateBirth = day + '/' + month + '/' + year;
+    alert('Selected date: ' + dateBirth);
+    dateLabel.innerHTML = dateBirth;
+}
+
+function zeroFormat(value){
+    if (value < 10){
+        value = "0" + value;
+    }
+    return value;
 }
 
 function addNewChild(){
     var gender = checkRadio(document.getElementsByName("child-gender"));
-    var birthDate = document.getElementById("inputBirthDate").value;
 
-    if(gender == undefined || birthDate == ""){
+    if(gender == undefined || dateBirth == ""){
         //alert("Please check all fields");
         navigator.notification.alert("Please check child gender and select birth date.", "", "Form message", "Ok");
         return;
     }
 
-    children.unshift({"gender": gender, "date": birthDate});
+    children.unshift({"gender": gender, "date": dateBirth});
 
     childrenList.innerHTML = "";
     createListItems();
