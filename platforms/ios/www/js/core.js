@@ -47,7 +47,8 @@ function addNewChild(){
     var birthDate = document.getElementById("inputBirthDate").value;
 
     if(gender == undefined || birthDate == ""){
-        alert("Please check all fields");
+        //alert("Please check all fields");
+        navigator.notification.alert("Please check child gender and select birth date.", "", "Form message", "Ok");
         return;
     }
 

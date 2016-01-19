@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3077d07f-3e37-4ef5-9c32-33a2162d90f3" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Workspace\apps\my_children_app\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\apps\my_children_app\platforms\android\assets\www\json\children.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\apps\my_children_app\www\json\children.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/config.xml" afterPath="$PROJECT_DIR$/platforms/android/assets/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/My children/My children-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/My children/My children-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/My children/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/My children/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/core.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/core.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/core.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/core.js" afterPath="$PROJECT_DIR$/www/js/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/frameworks.json" afterPath="$PROJECT_DIR$/platforms/ios/frameworks.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="$PROJECT_DIR$/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/ios.json" afterPath="$PROJECT_DIR$/platforms/ios/ios.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/my_children.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/my_children.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/my_children.html" afterPath="$PROJECT_DIR$/www/my_children.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/My children.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/My children.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_children_app.iws" />
@@ -41,14 +56,14 @@
         <entry file="file://$PROJECT_DIR$/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="130" column="29" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="29" />
+              <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
               <folding>
                 <element signature="e#8081#12614#2" expanded="true" />
                 <element signature="e#12718#18067#2" expanded="true" />
-                <element signature="e#18913#20602#2" expanded="true" />
-                <element signature="e#20790#22527#2" expanded="true" />
-                <element signature="e#23664#28417#2" expanded="true" />
-                <element signature="e#28479#35728#2" expanded="true" />
+                <element signature="e#18718#20407#2" expanded="true" />
+                <element signature="e#20544#22281#2" expanded="true" />
+                <element signature="e#23516#28269#2" expanded="true" />
+                <element signature="e#28331#35580#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -66,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7637271">
+            <state vertical-scroll-proportion="0.0">
               <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
               <folding />
             </state>
@@ -80,17 +95,17 @@
         <entry file="file://$PROJECT_DIR$/www/js/core.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+              <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_children.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="my_children.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/my_children.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.576923">
-              <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.2326389">
+              <caret line="74" column="87" selection-start-line="74" selection-start-column="87" selection-end-line="74" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -113,12 +128,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/www/json/children.json" />
-        <option value="$PROJECT_DIR$/www/js/index.js" />
-        <option value="$PROJECT_DIR$/www/my_children.html" />
-        <option value="$PROJECT_DIR$/www/css/index.css" />
-        <option value="$PROJECT_DIR$/www/js/core.js" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/config.xml" />
+        <option value="$PROJECT_DIR$/www/my_children.html" />
+        <option value="$PROJECT_DIR$/www/css/index.css" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/www/js/core.js" />
       </list>
     </option>
   </component>
@@ -187,24 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_children_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_children_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,12 +309,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16207276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16372657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -347,6 +344,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/my_children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -354,10 +375,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -395,10 +416,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -436,10 +457,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -477,10 +498,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -518,10 +539,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,10 +580,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -600,10 +621,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -641,10 +662,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -682,10 +703,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -731,10 +752,10 @@
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -780,18 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/my_children.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.576923">
-          <caret line="79" column="87" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/core.js">
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -799,14 +812,14 @@
     <entry file="file://$PROJECT_DIR$/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="29" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="29" />
+          <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
           <folding>
             <element signature="e#8081#12614#2" expanded="true" />
             <element signature="e#12718#18067#2" expanded="true" />
-            <element signature="e#18913#20602#2" expanded="true" />
-            <element signature="e#20790#22527#2" expanded="true" />
-            <element signature="e#23664#28417#2" expanded="true" />
-            <element signature="e#28479#35728#2" expanded="true" />
+            <element signature="e#18718#20407#2" expanded="true" />
+            <element signature="e#20544#22281#2" expanded="true" />
+            <element signature="e#23516#28269#2" expanded="true" />
+            <element signature="e#28331#35580#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -814,17 +827,25 @@
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
+    <entry file="file://$PROJECT_DIR$/www/js/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7637271">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/my_children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2326389">
+          <caret line="74" column="87" selection-start-line="74" selection-start-column="87" selection-end-line="74" selection-end-column="87" />
           <folding />
         </state>
       </provider>

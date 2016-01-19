@@ -55,6 +55,11 @@
 		4517A19DBC0F44F89668D90C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10688D3F3F76404F886ACB24 /* Photos.framework */; };
 		AEC26BE4A7334B568ADFBF70 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14F0813B0064A558383EEF1 /* ImageIO.framework */; };
 		2CF0D8F233324E3A81AD1EE9 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0F36E090A44BFAED5B4BA /* CDVStatusBar.m */; };
+		84A6C4B0D74F4C9082FBCA64 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA82D230687485999CDFDB5 /* CDVNotification.m */; };
+		EBBA227D41FE405282658245 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3FE43388D963421E9BA8AC98 /* CDVNotification.bundle */; };
+		9E56AC5930384E6F9D84CB79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD7D85559EA4641BCBD47AF /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EA75D7C50A6346DC879073B1 /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EC13D873F6B6430FA71B2433 /* DatePicker.m */; };
+		F159B6684D684677A437EBB1 /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = D831C4A1BB2D4B4687040797 /* DatePicker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +152,13 @@
 		C14F0813B0064A558383EEF1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		95B0F36E090A44BFAED5B4BA /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		37F90D7CAD474022AC978436 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CCA82D230687485999CDFDB5 /* CDVNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVNotification.m"; path = "cordova-plugin-dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		FC6910D8D4E34256BA11FE10 /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3FE43388D963421E9BA8AC98 /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
+		9AD7D85559EA4641BCBD47AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		EC13D873F6B6430FA71B2433 /* DatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DatePicker.m"; path = "cordova-plugin-datepicker/DatePicker.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6B221A831EEB40A3AEACCCA2 /* DatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DatePicker.h"; path = "cordova-plugin-datepicker/DatePicker.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D831C4A1BB2D4B4687040797 /* DatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "DatePicker.xib"; path = "DatePicker.xib"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +173,7 @@
 				3E64DDA80F534C5AB52A6574 /* QuartzCore.framework in Frameworks */,
 				4517A19DBC0F44F89668D90C /* Photos.framework in Frameworks */,
 				AEC26BE4A7334B568ADFBF70 /* ImageIO.framework in Frameworks */,
+				9E56AC5930384E6F9D84CB79 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +237,8 @@
 				8D1107310486CEB800E47090 /* My children-Info.plist */,
 				E86C578DADB24B0EA3170F83 /* QBImagePicker.strings */,
 				DF313EF099974C23A6EAA2AF /* QBImagePicker.storyboard */,
+				3FE43388D963421E9BA8AC98 /* CDVNotification.bundle */,
+				D831C4A1BB2D4B4687040797 /* DatePicker.xib */,
 			);
 			name = Resources;
 			path = "My children/Resources";
@@ -238,6 +253,7 @@
 				8DFF244EB69744B8B35C2F92 /* QuartzCore.framework */,
 				10688D3F3F76404F886ACB24 /* Photos.framework */,
 				C14F0813B0064A558383EEF1 /* ImageIO.framework */,
+				9AD7D85559EA4641BCBD47AF /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -275,6 +291,10 @@
 				02F537C5D80C4C0EAB8831A2 /* QBAssetsViewController.h */,
 				95B0F36E090A44BFAED5B4BA /* CDVStatusBar.m */,
 				37F90D7CAD474022AC978436 /* CDVStatusBar.h */,
+				CCA82D230687485999CDFDB5 /* CDVNotification.m */,
+				FC6910D8D4E34256BA11FE10 /* CDVNotification.h */,
+				EC13D873F6B6430FA71B2433 /* DatePicker.m */,
+				6B221A831EEB40A3AEACCCA2 /* DatePicker.h */,
 			);
 			name = Plugins;
 			path = "My children/Plugins";
@@ -430,6 +450,8 @@
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
 				3CADE86167DF44C2B712AE34 /* QBImagePicker.strings in Resources */,
 				B1B04925CDC4435BBC69D5D6 /* QBImagePicker.storyboard in Resources */,
+				EBBA227D41FE405282658245 /* CDVNotification.bundle in Resources */,
+				F159B6684D684677A437EBB1 /* DatePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +494,8 @@
 				6D7CAC8FE289411C96859D3C /* QBAlbumsViewController.m in Sources */,
 				AB1CC49FB55746FBA138849C /* QBAssetsViewController.m in Sources */,
 				2CF0D8F233324E3A81AD1EE9 /* CDVStatusBar.m in Sources */,
+				84A6C4B0D74F4C9082FBCA64 /* CDVNotification.m in Sources */,
+				EA75D7C50A6346DC879073B1 /* DatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
