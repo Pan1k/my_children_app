@@ -27,5 +27,6 @@
     </platform>
     <preference name="Fullscreen" value="false" />
     /* ios preference */
+    <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#32b1b5" />
 </widget>

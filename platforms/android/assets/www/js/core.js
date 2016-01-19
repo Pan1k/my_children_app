@@ -35,6 +35,7 @@ function init() {
     };
 
     dateLabel.addEventListener("click", function(){
+        dtoption.date = new Date();
         datePicker.show(dtoption, onSuccess);
     }, false);
 
@@ -46,7 +47,6 @@ function onSuccess(selectedDate) {
     var year = selectedDate.getFullYear();
 
     dateBirth = day + '/' + month + '/' + year;
-    alert('Selected date: ' + dateBirth);
     dateLabel.innerHTML = dateBirth;
 }
 
@@ -61,7 +61,6 @@ function addNewChild(){
     var gender = checkRadio(document.getElementsByName("child-gender"));
 
     if(gender == undefined || dateBirth == ""){
-        //alert("Please check all fields");
         navigator.notification.alert("Please check child gender and select birth date.", "", "Form message", "Ok");
         return;
     }
