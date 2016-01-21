@@ -26,19 +26,20 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        document.addEventListener('deviceready', this.onDeviceReady(), false);
     },
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-        app.loadChildren();
+        //app.receivedEvent('deviceready');
+        //app.loadChildren();
+        app.getStartAnimation('deviceready');
 
-        if (cordova.platformId == 'android') {
+        /*if (cordova.platformId == 'android') {
             StatusBar.backgroundColorByHexString("#32b1b5");
-        }
+        }*/
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -59,6 +60,17 @@ var app = {
 
             console.log(children);
         });
+    },
+
+
+    // Set containers animation
+    getStartAnimation: function(id){
+        var animatedContainers = document.getElementsByClassName("animated-container");
+
+        for(var i = 0; i < animatedContainers.length; i++){
+            var animationClassName = animatedContainers[i].getAttribute("class");
+            animatedContainers[i].setAttribute("class", animationClassName + " visible");
+        }
     }
 
 };

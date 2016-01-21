@@ -35,7 +35,7 @@ function init() {
     };
 
     dateLabel.addEventListener("click", function(){
-        //dtoption.date = new Date();
+        dtoption.date = new Date();
         datePicker.show(dtoption, onSuccess);
     }, false);
 
