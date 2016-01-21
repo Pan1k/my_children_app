@@ -170,6 +170,8 @@ footer {
 .btn.btn-next {
     background-color: #fe686a;
     border: 2px solid #fe686a;
+    transition: background-color .5s 0s,
+                color .5s 0s;
 }
 .btn-next:active {
     background-color: #fff;
