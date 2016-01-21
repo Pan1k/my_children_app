@@ -125,11 +125,13 @@ a {
 header,
 section,
 footer {
+    position: relative;
     padding: 20px;
+    box-sizing: border-box;
 }
+
 .header {
     background-color: #32b1b5;
-    position: relative;
 }
 .header h2 {
     margin: 0;
@@ -393,4 +395,20 @@ footer {
 .fade-out.visible {
     opacity: 1;
     transform: translate(0, 0);
+}
+
+/* device portrait orientation */
+@media screen and (orientation: portrait) {
+    header, footer {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+    section.content {
+        padding: 100px 20px;
+    }
+    footer {
+        bottom: 0;
+        background-color: #fff;
+    }
 }
